@@ -1,6 +1,6 @@
-### Стек: Kotlin, XML, Dagger2, rxJava, Retrofit+Okhttp Lottie, MVVM, CleanArchitecure
+### Стек: Kotlin, XML, Dagger2, rxJava, Retrofit+Okhttp, Lottie, MVVM, CleanArchitecure
 
-### Задание
+### Задание:
 ### Разработать приложение которое умеет обменивать валюты по ставкам.
 ### Требования:
 * ### Курсы валют должны обновляться каждые 30 секунд
@@ -16,4 +16,8 @@
 * ### Следовать принципам CleanArchitecure
 * ### Использование dagger, rx, retrofit -  будет плюсом(Присутствует)
 
-<img src="https://github.com/user-attachments/assets/66b45a9a-6030-462e-8089-1f2195cddefb" width="250">
+<img src="https://github.com/user-attachments/assets/bf334d9d-df53-4b1d-a7a6-bb05d462196a" width="250">
+<img src="https://github.com/user-attachments/assets/54b48edf-5a6b-44d6-844d-031ec4f4731a" width="250">
+<img src="https://github.com/user-attachments/assets/5b9516c9-52a1-4204-bfb4-bcd20470b61f" width="250">
+<img src="https://github.com/user-attachments/assets/a13b75ab-d386-47b0-a313-061ada9ac7e7" width="250">
+
