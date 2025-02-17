@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CurrencyExchange</string>
+    <string name="down_arrow_img_content_description">Down Arrow Image</string>
+    <string name="initial_amount_hint">0.00</string>
+</resources>

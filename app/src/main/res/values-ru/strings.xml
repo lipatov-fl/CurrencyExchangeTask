@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Обмен валюты</string>
+    <string name="down_arrow_img_content_description">Изображение стрелки вниз</string>
+    <string name="initial_amount_hint">0.00</string>
+</resources>

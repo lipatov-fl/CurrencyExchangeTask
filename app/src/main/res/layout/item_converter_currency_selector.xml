@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Custom_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_card">
+
+        <LinearLayout style="@style/Horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/selected_currency_text_view"
+                style="@style/Currency_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/amount_input_edit_text"
+                style="@style/Amount_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:autofillHints="amount"
+                android:hint="@string/initial_amount_hint" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/Horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/you_have_text_view"
+                style="@style/Text_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="You have: " />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/user_balance_text_view"
+                style="@style/Text_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/user_balance_icon_text_view"
+                style="@style/Text_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/conversion_label_icon_text_view"
+                style="@style/Text_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/currency_conversion_label_text_view"
+                style="@style/Text_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 = " />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/currency_rate_icon_text_view"
+                style="@style/Text_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/currency_rate_text_view"
+                style="@style/Text_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

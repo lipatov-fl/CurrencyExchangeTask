@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/App_toolbar_style"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/currency_conversion_toolbar"
+            style="@style/Toolbar_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/currency_conversion_icon_toolbar"
+            style="@style/Toolbar_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/Toolbar_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" = " />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/currency_rate_toolbar"
+            style="@style/Toolbar_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/conversion_label_icon_toolbar"
+            style="@style/Toolbar_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/toolbar_exchange_button"
+            style="@style/Toolbar_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/card_margin"
+            android:text="Exchange" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loadingAnimationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/currency_selection_rс_view"
+        style="@style/App_recycler_view_style"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_currency_selector" />
+
+    <ImageView
+        android:id="@+id/down_arrow_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/down_arrow_img_content_description"
+        android:src="@drawable/ic_arrow_downward_24" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/converter_currency_selection_rс_view"
+        style="@style/App_recycler_view_style"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_currency_selector" />
+</LinearLayout>

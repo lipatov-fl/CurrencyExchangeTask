@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_card">10dp</dimen>
+    <dimen name="currency_text_size">38sp</dimen>
+    <dimen name="app_text_size">18sp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+</resources>

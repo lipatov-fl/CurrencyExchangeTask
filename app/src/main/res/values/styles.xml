@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="Currency_text">
+        <item name="android:textSize">@dimen/currency_text_size</item>
+        <item name="android:color">@color/black</item>
+    </style>
+
+    <style name="Text_card">
+        <item name="android:textSize">@dimen/app_text_size</item>
+        <item name="android:color">@color/black</item>
+    </style>
+
+    <style name="Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Amount_input">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textSize">@dimen/currency_text_size</item>
+    </style>
+
+    <style name="Custom_card">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="android:layout_margin">@dimen/card_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Toolbar_text_style">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/app_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Toolbar_button_style">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/app_text_size</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="App_toolbar_style">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:elevation">@dimen/card_elevation</item>
+    </style>
+
+    <style name="App_recycler_view_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>
