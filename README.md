@@ -1,4 +1,4 @@
-### Стек: Kotlin, XML, Dagger2, rxJava, Retrofit+Okhttp, Lottie, MVVM, CleanArchitecure
+### Стек: Kotlin, XML, Dagger2, rxJava, Retrofit+Okhttp, Lottie, MVVM, CleanArchitecure, SharedPreferences
 
 ### Задание:
 ### Разработать приложение которое умеет обменивать валюты по ставкам.
